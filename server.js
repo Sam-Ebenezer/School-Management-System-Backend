@@ -10,7 +10,7 @@ const classRoute=require('./controller/classRoute')
 const teacherRoute=require('./controller/teacherRoute')
 
 mongoose.set('strictQuery', true);
-mongoose.connect('mongodb://127.0.0.1:27017/SampleDB');
+mongoose.connect('mongodb+srv://samebenezerd:vfBbKHsm9HL7UpDP@cluster0.7ghaoni.mongodb.net/');
 
 //web connection: mongodb+srv://samebenezerd:vfBbKHsm9HL7UpDP@cluster0.7ghaoni.mongodb.net/
 
