@@ -34,4 +34,4 @@ app.use('/',(req,res)=>{
     //res.send("HELLO WORLD!")
 })
 
-app.listen(5500,()=>console.log("Server started at 5500"))
+app.listen(3000,()=>console.log("Server started at 3000"))
