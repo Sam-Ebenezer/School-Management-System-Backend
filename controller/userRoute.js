@@ -87,10 +87,10 @@ router.post('/login',(req,res)=>{
     userSchema.exists(req.body, function (err, doc) {
         if (err){
             console.log(err)
-            res.status(404)
+            res.status(209)
             res.send("false")
         }else if(doc==null){
-            res.status(513)
+            res.status(210)
             res.send("false")
         }
         else{
