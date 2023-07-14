@@ -3,7 +3,7 @@ function errorHandler(res,error){
 
     switch(error.code){
         case 11000 :
-            res.status(409);
+            res.status(222);
             res.send("Duplicate key error");break;
         default:
             console.log(error.name)
